@@ -1,0 +1,11 @@
+.footer {
+	position: absolute;
+	padding: 1rem;
+	bottom: 0;
+}
+
+.footer > a {
+	font-size: 0.85rem;
+	font-size: 700;
+	color: rgba(0, 0, 0, 0.65);
+}

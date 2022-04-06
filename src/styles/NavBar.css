@@ -1,0 +1,39 @@
+.nav {
+	width: 100%;
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 0;
+	background: transparent;
+	z-index: 9;
+}
+
+.navItem {
+	transition: all 1s;
+	font-size: 0.98rem;
+	font-weight: 500;
+}
+
+.navItem:hover {
+	background: rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4rem);
+	border-radius: 0.5rem;
+}
+
+.header__icon {
+	object-fit: contain;
+	width: 8rem;
+}
+
+.navItemDistance > a {
+	margin: 0.75rem 0.5rem;
+}
+
+.navItemDistance:first-child {
+	margin-left: 0;
+}
+
+.navItemDistance:last-child {
+	margin-right: 0;
+}
